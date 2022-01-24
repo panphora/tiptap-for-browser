@@ -4,7 +4,8 @@
   "description": "make tiptap work in the browser",
   "main": "index.js",
   "scripts": {
-    "build": "esbuild index.js --bundle --outfile=tiptap-for-browser.js"
+    "build": "esbuild index.js --bundle --outfile=tiptap-for-browser.js",
+    "build-and-minify": "esbuild index.js --minify --bundle --outfile=tiptap-for-browser.min.js"
   },
   "author": "",
   "license": "MIT",
